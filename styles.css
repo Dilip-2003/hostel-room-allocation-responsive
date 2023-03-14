@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0px;
+  }
+
+  /* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background:whitesmoke;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  /* Style the navigation bar links */
+  .logo-container img{
+    display: flex;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 5px;
+    
+  }
+
+  .link-container{
+    display: flex;
+    padding: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+   
+  }
+  .link-container a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    
+  }
+  
+  /* Change color on hover */
+  .link-container a:hover {
+    background-color:white;
+    color: black;
+    border: 1px solid grey;
+  }
+  .column{
+    width: 50%;
+  }
+  .side{
+    width: 100%;
+    display: flex;
+    
+  }
+  .column h2{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: cursive;
+
+  }
+  .image-container{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 48%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  .image-container img{
+    max-width: 100%;
+    height: auto;
+    padding-right: 2%;
+  }
+  .image-container div{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    padding-right: 2%;
+    /* font-size: 20px; */
+    font-family: cursive;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .column1{
+    width: 50%;
+
+  }
+  .column1 h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .features-background{
+    background-color:lightgray;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 30px;
+  }
+  .features,.fees{
+    margin: 0% 10%;
+  }
+  .features-background ul li{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    /* font-weight:bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .fees-structure{
+    background-color:lightgray;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .fees h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  .fees-structure table, td, th {  
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .fees-structure table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .fees-structure th, td {
+    padding: 15px;
+  }
+  .container{
+    background: lightgray;
+  }
+  .heading-2{
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+  }
+  .application-form{
+    margin: 0% 30% 5%;
+    /* padding-bottom: 5%; */
+    width: 40%;
+    height:auto;
+    background: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: normal;
+   
+  }
+  .application-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .application-form form input,textarea{
+    padding: 15px;
+    background: white;
+  }
+
+  .application-form form label{
+    /* padding: 10px; */
+    background: white;
+  }
+  #button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    color:white;
+    background-color:darkslategrey;
+    /* margin-bottom:; */
+  }
+  #button:hover{
+    background-color:crimson;
+    color: black;
+    cursor: pointer;
+  }
+  .foooter{
+   width: 100%;
+   height: auto;
+   background-color: whitesmoke; 
+   display: flex;
+  }
+  #copyright{
+    display: flex;
+    width: 50%;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: cursive;
+    justify-content: center;
+  }
+  .social-media{
+    font-weight: bold;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #f{
+    max-width: 30px; 
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 10px;
+  }
+  #l{
+    max-width: 30px; 
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 10px;
+  }
+  #i{
+    max-width: 30px; 
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 10px;
+  }
+  #c{
+    max-width: 30px; 
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 10px;
+  }
+  #g{
+    max-width: 30px; 
+    height: 30px;
+    margin: 10px 5px;
+    /* margin: 10px 0 0 10px; */
+    border-radius: 10px;
+  }
+
+  @media all and (max-width: 700px){
+    .link-container{
+      flex-direction: column;
+    }
+    .logo-container img{
+      margin: 50px;
+      max-width: 100px;
+      height: 100px;
+      border-radius: 0%;
+    }
+    .row{
+      flex-direction: column;
+    }
+    .column{
+      width: 100%;
+    }
+    .column1{
+      width: 100%;
+    }
+    .application-form{
+      width: 100%;
+      margin:0%;
+    }
+    .heading-2{
+      padding-bottom: 5%;
+    }
+    .social-media p{
+      font-size: 11px;
+      font-weight: bold;
+    }
+    #f{
+      max-width: 20px; 
+      height: 20px;
+      margin: 10px 5px;
+      
+    }
+    #l{
+      max-width: 20px; 
+      height: 20px;
+      margin: 10px 5px;
+      
+    }
+    #i{
+      max-width: 20px; 
+      height: 20px;
+      margin: 10px 5px;
+      
+    }
+    #c{
+      max-width: 20px; 
+      height: 20px;
+      margin: 10px 5px;
+      
+    }
+    #g{
+      max-width: 20px; 
+      height: 20px;
+      margin: 10px 0 0 10px;
+    }
+    #copyright{
+      font-size: 11px;
+      font-weight: bold;
+    }
+  }
